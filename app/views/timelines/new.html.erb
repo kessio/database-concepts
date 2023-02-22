@@ -1,0 +1,9 @@
+<h1>Click Timeline</h1>
+
+<%= form_with model: @clicktimeline, url: timelines_url, method: :post do |form|  %>
+    <div class="actions">
+        <%= form.submit 'CreateTimeline' %>
+    </div>
+<% end %>
+
+
